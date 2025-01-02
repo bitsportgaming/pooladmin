@@ -1,0 +1,116 @@
+body {
+    background-color: #000000; /* Ensure the background is black */
+    color: #ffffff; /* Ensure default text color is white */
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    background-color: #000000; /* Ensure container background is black */
+}
+
+.header img {
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 20px;
+}
+
+h1, h2 {
+    color: #ffffff; /* Ensure heading text color is white */
+    margin: 10px 0;
+}
+
+ul.tasks {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+ul.tasks li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333333; /* Dark background for tasks */
+    border: 1px solid #444444; /* Border for tasks */
+    padding: 20px; /* Increase height */
+    margin-bottom: 10px;
+    border-radius: 10px; /* Rounded corners */
+    transition: background-color 0.3s, transform 0.3s;
+    color: #ffffff;
+    position: relative; /* For positioning the loading spinner */
+}
+
+ul.tasks li.completed {
+    background-color: #006400; /* Green background for completed tasks */
+}
+
+ul.tasks li.loading::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 30px;
+    height: 30px;
+    border: 3px solid #ffffff;
+    border-top: 3px solid #1a73e8;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    transform: translate(-50%, -50%);
+}
+
+@keyframes spin {
+    0% { transform: translate(-50%, -50%) rotate(0deg); }
+    100% { transform: translate(-50%, -50%) rotate(360deg); }
+}
+
+ul.tasks li:hover {
+    background-color: #555555; /* Hover effect */
+    transform: scale(1.02); /* Slightly enlarge on hover */
+}
+
+ul.tasks li.completed:hover {
+    background-color: #228B22; /* Hover effect for completed tasks */
+}
+
+.task-points {
+    color: #FF4500; /* Ensure points text color is visible */
+    font-size: 16px; /* Slightly larger font for points */
+    font-weight: bold;
+}
+
+button#playGameButton {
+    background-color: #1a73e8; /* Blue background for play button */
+    color: #ffffff; /* Ensure button text color is white */
+    border: none;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 18px;
+    font-weight: bold;
+    width: 100%; /* Full width button */
+    max-width: 600px;
+    margin: 20px auto 0; /* Center the button */
+}
+
+button#playGameButton:disabled {
+    background-color: #A9A9A9; /* Lighter grey for disabled state */
+    cursor: not-allowed;
+}
+
+button#playGameButton:hover:not(:disabled) {
+    background-color: #4CAF50; /* Green background for hover */
+}
+
+.no-tasks {
+    color: #FF4500; /* Orange text color for no tasks message */
+    padding: 20px;
+    border: 1px solid #FF4500;
+    border-radius: 5px;
+    background-color: #333333;
+    max-width: 600px;
+    margin: 0 auto;
+}

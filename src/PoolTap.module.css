@@ -1,0 +1,47 @@
+.ballWrapper {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  animation-name: moveDown;
+  animation-timing-function: linear;
+  animation-fill-mode: both;
+}
+
+.ball {
+  width: 100%;
+  height: 100%;
+  touch-action: manipulation;
+}
+
+@keyframes moveDown {
+  from {
+    top: -50px;
+  }
+  to {
+    top: 100%;
+  }
+}
+
+.falling {
+  animation-name: fall !important;
+  animation-duration: 1s !important;
+  animation-timing-function: ease-in !important;
+}
+
+@keyframes fall {
+  to {
+    transform: translateY(100vh);
+    opacity: 0;
+  }
+}
+
+.exploding {
+  animation: explode 0.5s forwards;
+}
+
+@keyframes explode {
+  to {
+    transform: scale(2);
+    opacity: 0;
+  }
+}

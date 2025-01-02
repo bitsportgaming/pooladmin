@@ -1,0 +1,25 @@
+<svg width="44" height="41" viewBox="0 0 44 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M42.7761 14.9383C43.0833 14.5602 43.0734 14.0158 42.7526 13.6492L31.9833 1.3415C31.7935 1.12448 31.5191 1 31.2308 1H12.7692C12.4809 1 12.2065 1.12448 12.0167 1.3415L1.24742 13.6492C0.926641 14.0158 0.9167 14.5602 1.22389 14.9383L21.2239 39.5537C21.4138 39.7874 21.6989 39.9231 22 39.9231C22.3011 39.9231 22.5862 39.7874 22.7761 39.5537L42.7761 14.9383Z" fill="#EC8BEE" stroke="#1D0576" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M31.2308 2L42 14.3077H2L12.7692 2H31.2308Z" fill="#FD9FFF"/>
+<path d="M42 14.3077L22 38.9231V2H31.2308L42 14.3077Z" fill="#C86DFF"/>
+<path d="M42 14.3077H22V2H31.2308L42 14.3077Z" fill="#D289FF"/>
+<path d="M2 14.3077L22 38.9231L11.7436 14.3077L22 2H12.7692L2 14.3077Z" fill="#DA9DFF"/>
+<path d="M13.282 2L2 14.3077H11.7436L22 2H13.282Z" fill="#E5BBFF"/>
+<path d="M2 14.3077L22 38.9231L5.58974 14.3077L16.359 2H12.7692L2 14.3077Z" fill="#E7C1FF"/>
+<path d="M12.7692 2L2 14.3077H5.58975L16.359 2H12.7692Z" fill="#EFD5FF"/>
+<path d="M42 14.3077L22 38.9231L32.2564 14.3077L22 2H31.2308L42 14.3077Z" fill="#7233DA"/>
+<path d="M31.2308 2L42 14.3077H32.2564L22 2H31.2308Z" fill="#8C4BF7"/>
+<path d="M42 14.3077L22 38.9231L38.4103 14.3077L27.641 2H31.2308L42 14.3077Z" fill="#A653F9"/>
+<path d="M31.2308 2L42 14.3077H38.4103L27.641 2H31.2308Z" fill="#BB77FF"/>
+<path d="M4.05128 13.282L10.718 5.58972" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M13.7949 13.282L20.4615 5.58972" stroke="#FEB8FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="26.1026" cy="20.9744" r="0.512821" fill="#B053EA"/>
+<circle cx="27.641" cy="23.0256" r="0.512821" fill="#B053EA"/>
+<circle cx="25.5897" cy="25.5897" r="0.512821" fill="#B053EA"/>
+<circle cx="24.0513" cy="26.6154" r="0.512821" fill="#B053EA"/>
+<circle cx="24.0513" cy="29.6923" r="0.512821" fill="#B053EA"/>
+<circle cx="24.5641" cy="19.4359" r="0.512821" fill="#B053EA"/>
+<circle cx="28.6667" cy="18.4103" r="0.512821" fill="#B053EA"/>
+<ellipse cx="26.359" cy="18.1539" rx="0.769231" ry="0.769231" fill="#B053EA"/>
+<ellipse cx="25.3333" cy="23.282" rx="0.769231" ry="0.769231" fill="#B053EA"/>
+</svg>

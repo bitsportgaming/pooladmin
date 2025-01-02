@@ -1,0 +1,149 @@
+@font-face {
+  font-family: 'Azonix';
+  src: url('../public/Azonix.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Aeonik';
+  src: url('../public/Aeonik-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  --font-size-xl: 20px;
+  --font-aeonik-trial: 'Aeonik', sans-serif;
+  --font-azonix: 'Azonix', sans-serif;
+  --color-white: #ffffff;
+}
+
+.home {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  overflow: hidden;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+  font-family: var(--font-aeonik-trial);
+}
+
+.background-icon {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.coinholder {
+  position: absolute;
+  top: 48px;
+  right: 80px;
+  display: flex;
+  align-items: center;
+  background-color: rgba(244, 10, 177, 0.2);
+  border-radius: 18px;
+  padding: 5px 10px;
+}
+
+.score {
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.poold-01-1-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.d-avatars-13 {
+  position: absolute;
+  top: 42px;
+  right: 20px;
+  width: 48px;
+  height: 48px;
+  cursor: pointer;
+}
+
+.logo-intro {
+  position: absolute;
+  top: 127px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  font-family: var(--font-azonix);
+}
+
+.logo-icon {
+  width: 62px;
+  height: 62px;
+}
+
+.welcome {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.degens {
+  font-size: 40px;
+  color: #fc1efb;
+  font-family: var(--font-azonix);
+}
+
+.game-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 280px;
+  padding-bottom: 80px;
+}
+
+.game-card {
+  display: flex;
+  background-color: rgba(244, 10, 177, 0.2);
+  border-radius: 20px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  width: 90%;
+  max-width: 380px;
+}
+
+.game-image {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.game-description {
+  padding: 15px;
+  flex: 1;
+}
+
+.game-title {
+  font-size: 24px;
+  margin: 0 0 10px;
+  color: #fc1efb;
+  font-family: var(--font-azonix);
+}
+
+.game-text {
+  font-family: var(--font-aeonik-trial);
+  font-size: 14px;
+  margin-bottom: 15px;
+  font-weight: normal;
+}
+
+.play-button {
+  background-color: #fc1efb;
+  color: #ffff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+}

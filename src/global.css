@@ -1,0 +1,75 @@
+@font-face {
+  font-family: "Aeonik TRIAL";
+  src: url("/public/aeoniktrial-bold.otf");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Azonix";
+  src: url("/public/Azonix.otf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Name Smile";
+  src: url("/public/Name Smile.otf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Aeonik";
+  src: url("/public/Aeonik-Regular.otf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Aeonik";
+  src: url("/public/Aeonik-Bold.otf");
+  font-weight: 700;
+}
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-azonix: Azonix;
+  --font-aeonik-trial: "Aeonik TRIAL";
+  --noto-sans-12px-regular: Aeonik;
+  --font-name-smile: "Name Smile";
+
+  /* font sizes */
+  --font-size-xl: 20px;
+  --noto-sans-12px-regular-size: 12px;
+  --noto-sans-14px-regular-size: 14px;
+  --font-size-3xs: 10px;
+  --font-size-23xl: 42px;
+  --noto-sans-17px-regular-size: 17px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-fuchsia-100: #fc1efb;
+  --color-fuchsia-200: rgba(252, 30, 251, 0.1);
+  --gradients: #f40ab1;
+  --foundation-purple-light-active: #d4bdfd;
+  --foundation-purple-darker: #290f56;
+  --foundation-red-darker: #55043e;
+  --foundation-red-light-hover: #fddaf3;
+
+  /* Gaps */
+  --gap-4xs: 9px;
+  --gap-9xs: 4px;
+  --gap-6xs: 7px;
+  --gap-5xs: 8px;
+
+  /* Paddings */
+  --padding-xs: 12px;
+  --padding-lg: 18px;
+  --padding-3xs: 10px;
+  --padding-5xs: 8px;
+  --padding-9xs: 4px;
+
+  /* Border radiuses */
+  --br-11xl: 30px;
+  --br-xl: 20px;
+  --br-3xs: 10px;
+  --br-base: 16px;
+  --br-mid: 17px;
+}

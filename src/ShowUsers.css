@@ -1,0 +1,12 @@
+.show-users-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #282c34;
+}
+
+.user-count {
+    font-size: 10rem;
+    color: #61dafb;
+}

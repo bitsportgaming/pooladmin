@@ -1,0 +1,31 @@
+.menu-component {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: linear-gradient(to top, #f40ab1, #742af7);
+  padding: 10px 20px;
+  border-radius: 12px 12px 0 0;
+}
+
+.menu-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+
+.menu-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.menu-text {
+  margin-top: 4px;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 12px;
+  color: #ffffff;
+}

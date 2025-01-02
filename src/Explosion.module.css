@@ -1,0 +1,23 @@
+.explosion {
+  position: absolute;
+  top: 50%; /* Center the explosion vertically */
+  left: 50%; /* Center the explosion horizontally */
+  transform: translate(-50%, -50%); /* Adjust to the center */
+  width: 200px; /* Increase size for better visibility */
+  height: 200px; /* Increase size for better visibility */
+  background: url('explosion.png') no-repeat center center;
+  background-size: contain;
+  animation: explode 1s ease-out;
+  z-index: 10; /* Ensure explosion is above other elements */
+}
+
+@keyframes explode {
+  0% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(2);
+  }
+}

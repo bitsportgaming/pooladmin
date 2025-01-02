@@ -1,0 +1,41 @@
+<svg width="46" height="38" viewBox="0 0 46 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M10.5385 1C5.5679 1 1.53847 5.02944 1.53847 10V12.7692V33.3846C1.53847 35.0415 2.88161 36.3846 4.53847 36.3846H41.4615C43.1184 36.3846 44.4615 35.0415 44.4615 33.3846V12.7692V10C44.4615 5.02944 40.4321 1 35.4615 1H10.5385Z" fill="#8D3FCA" stroke="#3F035B" stroke-width="2" stroke-linejoin="round"/>
+<rect x="2.53847" y="14.9231" width="40.9231" height="2.15385" fill="#5E1E91"/>
+<ellipse cx="38.8846" cy="34.0385" rx="0.807692" ry="0.807692" fill="#7C29AE"/>
+<circle cx="41.3077" cy="28.3846" r="1.07692" fill="#7C29AE"/>
+<circle cx="40.7692" cy="31.0769" r="0.538462" fill="#7C29AE"/>
+<ellipse cx="38.3461" cy="28.1154" rx="0.807692" ry="0.807692" fill="#7C29AE"/>
+<ellipse cx="34.5769" cy="28.1154" rx="0.807692" ry="0.807692" fill="#7C29AE"/>
+<circle cx="39.1538" cy="24.6154" r="0.538462" fill="#7C29AE"/>
+<circle cx="41.3077" cy="25.6923" r="0.538462" fill="#7C29AE"/>
+<circle cx="42.3846" cy="21.923" r="0.538462" fill="#7C29AE"/>
+<circle cx="41.8462" cy="33.2307" r="0.538462" fill="#7C29AE"/>
+<circle cx="34.8462" cy="25.1538" r="0.538462" fill="#7C29AE"/>
+<ellipse cx="34.5769" cy="33.5" rx="0.807692" ry="0.807692" fill="#7C29AE"/>
+<circle cx="33.2308" cy="31.6154" r="0.538462" fill="#7C29AE"/>
+<circle cx="31.0769" cy="33.2307" r="0.538462" fill="#7C29AE"/>
+<circle cx="33.2308" cy="30.5385" r="0.538462" fill="#7C29AE"/>
+<circle cx="31.0769" cy="29.4615" r="0.538462" fill="#7C29AE"/>
+<circle cx="28.3846" cy="34.3076" r="0.538462" fill="#7C29AE"/>
+<circle cx="39.1538" cy="29.9999" r="0.538462" fill="#7C29AE"/>
+<path d="M6.09558 6.30768H39.9044" stroke="#631791" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M4.28439 10.0769H41.7156" stroke="#631791" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M3.07693 18.6923H42.9231" stroke="#631791" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M3.07693 23H42.9231" stroke="#631791" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M3.07693 27.3077H42.9231" stroke="#631791" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M3.07693 31.6154H42.9231" stroke="#631791" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M3.07693 31.0769V15.7308" stroke="#D96CFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M38.0769 2.53845H7.1154C4.42309 2.53845 3.07693 3.88461 3.07693 6.57691V13.3077H42.3846" stroke="#D96CFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M7.1154 2.53845C4.42309 2.53845 3.07693 3.88461 3.07693 6.57691" stroke="#F4ADFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M2 14.3846H44" stroke="#3F035B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M27.9077 18.9539C28.1595 18.765 28.3077 18.4686 28.3077 18.1539V11.6154C28.3077 10.5108 27.4123 9.61542 26.3077 9.61542H19.6923C18.5877 9.61542 17.6923 10.5108 17.6923 11.6154V18.1539C17.6923 18.4686 17.8405 18.765 18.0923 18.9539L22.4 22.1846C22.7556 22.4513 23.2444 22.4513 23.6 22.1846L27.9077 18.9539Z" fill="#DF8D12" stroke="#652A11" stroke-width="2" stroke-linejoin="round"/>
+<path d="M23 17.5385C24.4444 17.5385 25.6154 16.3676 25.6154 14.9231C25.6154 13.4787 24.4444 12.3077 23 12.3077C21.5556 12.3077 20.3846 13.4787 20.3846 14.9231C20.3846 16.3676 21.5556 17.5385 23 17.5385Z" fill="#FFB341" stroke="#944320" stroke-width="2"/>
+<path d="M19.2308 17.0769V11.1539H25.6923" stroke="#FFB341" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="22.4615" cy="14.3847" r="0.538462" fill="#FFEACA"/>
+<path d="M34.8462 14.9231H38.0769V35.3846H34.8462V14.9231Z" fill="#10A4C5"/>
+<path d="M38.0769 12.7692H36.4616H34.8462V2H38.0769V12.7692Z" fill="#45CDEB"/>
+<path d="M7.92308 12.7692H9.53847H11.1538V2H7.92308V12.7692Z" fill="#45CDEB"/>
+<path d="M8.46155 2.53845V8.1923" stroke="#8EEBFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M35.3846 2.53845V8.1923" stroke="#8EEBFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M7.92308 14.9231H9.53847H11.1538V35.3846H7.92308V14.9231Z" fill="#10A4C5"/>
+</svg>

@@ -1,0 +1,27 @@
+.game-selector-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #f0f0f0;
+}
+
+.game-option {
+    cursor: pointer;
+    transition: transform 0.2s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game-option img {
+    width: 75%; /* Reduced to 75% of the original size */
+    height: auto;
+    border-radius: 10px;
+}
+
+.game-option:hover {
+    transform: scale(1.05);
+}

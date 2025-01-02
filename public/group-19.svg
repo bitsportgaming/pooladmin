@@ -1,0 +1,25 @@
+<svg width="20" height="28" viewBox="0 0 20 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M1 7.4C1 7.13478 1.10536 6.88043 1.29289 6.69289L6.69289 1.29289C6.88043 1.10536 7.13478 1 7.4 1L12.2 1C12.4652 1 12.7196 1.10536 12.9071 1.29289L18.3071 6.69289C18.4946 6.88043 18.6 7.13478 18.6 7.4L18.6 20.6C18.6 20.8652 18.4946 21.1196 18.3071 21.3071L12.9071 26.7071C12.7196 26.8946 12.4652 27 12.2 27L7.4 27C7.13478 27 6.88043 26.8946 6.69289 26.7071L1.29289 21.3071C1.10536 21.1196 0.999999 20.8652 0.999999 20.6L1 7.4Z" fill="#BE62E9" stroke="#1D0576" stroke-width="2" stroke-linejoin="round"/>
+<path d="M2 20.6L2 7.40002L6.5 8.90002L6.5 19.1L2 20.6Z" fill="#EC8BEE"/>
+<path d="M7.4 2L2 7.40001L6.5 8.90001L9.8 5L12.2 2L7.4 2Z" fill="#E7C1FF"/>
+<path d="M13.1 19.1L9.79999 23L7.39999 26L12.2 26L17.6 20.6L17.6 7.4L12.2 2L9.79999 5L13.1 8.9L13.1 19.1Z" fill="#A653F9"/>
+<path d="M17.6 7.40002L17.6 20.6L13.1 19.1L13.1 8.90002L17.6 7.40002Z" fill="#7233DA"/>
+<circle cx="16.4" cy="10.4" r="0.6" fill="#8949F2"/>
+<ellipse cx="15.65" cy="12.95" rx="0.45" ry="0.45" fill="#8949F2"/>
+<circle cx="16.7" cy="12.2" r="0.3" fill="#8949F2"/>
+<circle cx="15.2" cy="11.3" r="0.3" fill="#8949F2"/>
+<circle cx="16.7" cy="8.60001" r="0.3" fill="#8949F2"/>
+<circle cx="16.7" cy="15.8" r="0.3" fill="#8949F2"/>
+<circle cx="16.7" cy="14.3" r="0.3" fill="#8949F2"/>
+<path d="M6.5 8.9L6.5 19.1L9.8 23L13.1 19.1141L13.1 8.9L9.8 5L6.5 8.9Z" fill="#C86DFF"/>
+<path d="M6.5 19.1L6.5 8.9L9.8 5L13.1 8.9L6.5 19.1Z" fill="#DA9DFF"/>
+<path d="M9.80001 5.90002L7.10001 9.20002V15.5" stroke="#EAC8FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M2.60001 8.3V19.7" stroke="#F3A7FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M3.20001 7.09998L7.70001 2.59998" stroke="#F4E2FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="15.35" cy="21.35" rx="0.45" ry="0.45" fill="#933FE7"/>
+<ellipse cx="12.35" cy="24.35" rx="0.45" ry="0.45" fill="#933FE7"/>
+<ellipse cx="13.55" cy="23.15" rx="0.45" ry="0.45" fill="#933FE7"/>
+<circle cx="12.2" cy="22.4" r="0.3" fill="#933FE7"/>
+<circle cx="14.3" cy="22.4" r="0.3" fill="#933FE7"/>
+<circle cx="13.4" cy="21.2" r="0.6" fill="#933FE7"/>
+</svg>

@@ -1,0 +1,232 @@
+.background-icon2 {
+  position: absolute;
+  top: calc(50% - 490px);
+  left: calc(50% - 245px);
+  width: 490px;
+  height: 980px;
+  object-fit: contain;
+}
+
+.coming-soon-section {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  font-size: 2em;
+  font-family: var(--font-azonix);
+}
+
+.game-balance-section {
+  position: absolute;
+  top: 66px;
+  left: 30px;
+  width: 367.9px;
+  height: 208px;
+  font-size: var(--noto-sans-14px-regular-size);
+}
+
+.game-balance-frame {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  background-color: var(--foundation-purple-darker);
+  border: 1px solid var(--gradients);
+  box-sizing: border-box;
+  width: 367.9px;
+  padding: 78px var(--padding-3xs) var(--padding-3xs);
+}
+
+.frame-parent {
+  align-self: stretch;
+  gap: var(--gap-4xs);
+}
+
+.frame-group {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ellipse-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-6xs);
+}
+
+.frame-child {
+  width: 16px;
+  position: relative;
+  border-radius: 50%;
+  height: 16px;
+  object-fit: cover;
+}
+
+.refresh-icon1 {
+  width: 20px;
+  position: relative;
+  height: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.frame-container {
+  align-self: stretch;
+  gap: var(--gap-9xs);
+  font-size: var(--font-size-23xl);
+  font-family: var(--font-azonix);
+}
+
+.poold-01-1-group {
+  align-self: stretch;
+  border-radius: var(--br-base);
+  border: 1px solid var(--gradients);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-xs) var(--padding-lg);
+}
+
+.poold-01-1-icon2 {
+  width: 49px;
+  position: relative;
+  height: 49px;
+  object-fit: cover;
+}
+
+.div1 {
+  width: 219px;
+  position: relative;
+  display: inline-block;
+  height: 31px;
+  flex-shrink: 0;
+}
+
+.game-balance2 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-3xs);
+  letter-spacing: 0.3em;
+  font-family: var(--noto-sans-12px-regular);
+  color: var(--foundation-purple-light-active);
+  text-align: center;
+}
+
+.logo-icon2 {
+  position: absolute;
+  top: 18px;
+  left: 176.1px;
+  width: 37.8px;
+  height: 36px;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.navbar1 {
+  position: absolute;
+  top: 841px;
+  left: calc(50% - 163px);
+  width: 326px;
+  text-align: center;
+  font-size: var(--noto-sans-12px-regular-size);
+  font-family: var(--font-aeonik-trial);
+}
+
+.home3,
+.earn2,
+.wallet2,
+.frens2 {
+  position: absolute;
+  width: 80px;
+  height: 60px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.home3 {
+  top: 0;
+  left: 0;
+}
+
+.earn2 {
+  top: 0;
+  left: 82px;
+}
+
+.wallet2 {
+  top: 0;
+  left: 164px;
+}
+
+.frens2 {
+  top: 0;
+  left: 246px;
+}
+
+.home4,
+.earn3,
+.wallet3,
+.frens3 {
+  position: absolute;
+  top: 44px;
+  letter-spacing: 0.5px;
+  line-height: 16px;
+}
+
+.home4,
+.wallet3,
+.frens3 {
+  left: calc(50% - 19px);
+}
+
+.earn3 {
+  left: calc(50% - 17px);
+}
+
+.home-item,
+.earn-item,
+.wallet-item,
+.luck-pirple-icon1 {
+  position: absolute;
+  overflow: hidden;
+}
+
+.home-item,
+.wallet-item {
+  height: 65.83%;
+  width: 52.5%;
+  top: 3.33%;
+  right: 23.75%;
+  bottom: 30.83%;
+  left: 23.75%;
+  max-width: 100%;
+  max-height: 100%;
+  display: none;
+}
+
+.earn-item {
+  height: 61.5%;
+  width: 50%;
+  top: 5%;
+  right: 25%;
+  bottom: 33.5%;
+  left: 25%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+
+.luck-pirple-icon1 {
+  top: 0;
+  left: calc(50% - 21px);
+  width: 42px;
+  height: 42px;
+  overflow: hidden;
+}
