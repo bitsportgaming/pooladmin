@@ -9,37 +9,14 @@ require('dotenv').config({
 
 const app = express();
 
-// Security middleware for production
-if (process.env.NODE_ENV === 'production') {
-  const helmet = require('helmet');
-  app.use(helmet());
-  app.use(helmet.hidePoweredBy());
-  app.use(helmet.noSniff());
-  app.use(helmet.xssFilter());
-  app.use(helmet.frameguard({ action: 'deny' }));
-}
-
-// CORS configuration
-const corsOptions = {
+// Middleware
+app.use(cors({
   origin: process.env.CORS_ORIGIN || 'http://localhost:3003',
   credentials: true,
   optionsSuccessStatus: 200
-};
-app.use(cors(corsOptions));
-
-// Middleware
+}));
 app.use(express.json());
 app.use(morgan(process.env.NODE_ENV === 'production' ? 'combined' : 'dev'));
-
-// Rate limiting for production
-if (process.env.NODE_ENV === 'production') {
-  const rateLimit = require('express-rate-limit');
-  const limiter = rateLimit({
-    windowMs: 15 * 60 * 1000, // 15 minutes
-    max: 100 // limit each IP to 100 requests per windowMs
-  });
-  app.use('/api/', limiter);
-}
 
 // MongoDB connection with retry logic
 const connectWithRetry = () => {
@@ -48,9 +25,10 @@ const connectWithRetry = () => {
     useUnifiedTopology: true,
     serverSelectionTimeoutMS: 5000,
     socketTimeoutMS: 45000,
+    family: 4  // Force IPv4
   };
 
-  mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/pool_degen', mongoOptions)
+  mongoose.connect(process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017/pool_degen', mongoOptions)
     .then(() => {
       console.log('MongoDB connected successfully');
       if (process.env.NODE_ENV !== 'production') {
@@ -256,15 +234,6 @@ app.use((err, req, res, next) => {
   console.error(err.stack);
   res.status(500).json({ error: 'Something broke!' });
 });
-
-// Serve static files in production
-if (process.env.NODE_ENV === 'production') {
-  app.use(express.static(path.join(__dirname, '../frontend/dist')));
-  
-  app.get('*', (req, res) => {
-    res.sendFile(path.join(__dirname, '../frontend/dist/index.html'));
-  });
-}
 
 // Start server
 const PORT = process.env.PORT || 5006;
