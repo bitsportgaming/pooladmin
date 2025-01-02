@@ -1,8 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import api from '../../api/axios';
 import './AdminDashboard.css';
+import LoginForm from './LoginForm';
 
 const AdminDashboard = () => {
+  const [isAuthenticated, setIsAuthenticated] = useState(false);
   // Analytics state
   const [totalScore, setTotalScore] = useState(0);
   const [averageScore, setAverageScore] = useState(0);
@@ -214,6 +216,10 @@ const AdminDashboard = () => {
       action();
     }
   };
+
+  if (!isAuthenticated) {
+    return <LoginForm onLogin={() => setIsAuthenticated(true)} />;
+  }
 
   return (
     <div className="dashboard-container">
