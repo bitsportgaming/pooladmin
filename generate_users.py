@@ -99,7 +99,7 @@ if __name__ == '__main__':
         print(f"Current users in database: {current_users}")
         
         # Generate 150K additional users
-        create_fake_users(150000)
+        create_fake_users(135983)
         print("Successfully generated 150K users!")
         
         # Print some stats
